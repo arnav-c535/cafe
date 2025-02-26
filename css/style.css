@@ -1,0 +1,60 @@
+#header a{
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+	font-size: 20px;
+}
+
+#header a:hover{
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+#heading{
+	color: black;
+}
+#heading span{
+	color: orange;
+}
+#line{
+	width: 250px;
+	border: 1px solid red;
+}
+
+#menu .row{
+	margin-top: 50px;
+}
+
+#menu .card{
+	height: 330px;
+	color: black;
+	background-color: #b3ada1;
+	border-radius: 10px;
+}
+
+#menu img{
+	width: 100%;
+	height: 30vh;
+}
+
+
+#menu #price {
+	color: #f7b519;
+	animation-name: color;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color{
+	50%{
+		color: red;
+	}
+	100%{
+		color: #f7b519;
+	}
+}
+
+#about {
+	background-color:  gray;
+}
